@@ -27,7 +27,7 @@ Walaupun dapat melakukan operasi seperti MongoDB Compass, interaksi yang dilakuk
 ![Screenshot connection](../Laprak2/8.png) <br><br>
 2. Mencoba melihat list database yang ada di server dengan menjalankan command ```show dbs```
    ![Screenshot connection](../Laprak2/9.1.png) <br><br>
-   Untuk berpindah ke database "bookstore" gunakan command ```use bookstore``` , kalian dapat memastikan telah berpindah ke database yang benar dengan melihat tulisan sebelum tanda ">"
+   Untuk berpindah ke database "bookstore" gunakan command ```use bookstore``` , kalian dapat memastikan telah berpindah ke database yang benar dengan melihat tulisan sebelum tanda ">" <br><br>
    ![Screenshot connection](../Laprak2/9.2.png) <br><br>
    Cobalah untuk melihat collection yang ada pada database tersebut dengan menggunakan command ```show collections``` <br><br>
    ![Screenshot connection](../Laprak2/9.3.png) <br><br>
@@ -37,7 +37,7 @@ Walaupun dapat melakukan operasi seperti MongoDB Compass, interaksi yang dilakuk
    ![Screenshot connection](../Laprak2/11.png) <br><br>
 5. Lakukan pencarian buku dengan menggunakan command ```db.books.find()``` untuk melakukan pencarian semua buku. <br><br>
    ![Screenshot connection](../Laprak2/12.png) <br><br>
-6. Tampilkan seluruh buku dengan author "Osamu Dazai" dengan mengisi argument pada find() dengan menggunakan command ```db.books.find({<filter yang ingin diisi>})```
+6. Tampilkan seluruh buku dengan author "Osamu Dazai" dengan mengisi argument pada find() dengan menggunakan command ```db.books.find({<filter yang ingin diisi>})``` <br><br>
    ![Screenshot connection](../Laprak2/13.png) <br><br>
 7. Lakukan perubahan summary pada buku "Hujan" menjadi "Buku yang bagus (NAMA,NIM) dengan mengunakan command ```db.books.updateOne({<filter>}, {$set: {<data yang akan di update>}})``` sehingga output yang dihasilkan oleh MongoDB akan menjadi seperti berikut
    ![Screenshot connection](../Laprak2/14.png) <br><br>
@@ -47,5 +47,5 @@ Walaupun dapat melakukan operasi seperti MongoDB Compass, interaksi yang dilakuk
     ![Screenshot connection](../Laprak2/16.png) <br><br>
 10. Lakukan penghapusan pada semua buku "Osamu Dazai" dengan menggunakan command ```db.books.deleteMany({<argument>})```
     ![Screenshot connection](../Laprak2/17.png) <br><br>
-    Untuk melihat hasil dari proses CRUD yang sudah dibuat diatas, dapat dilakukan pencarian dengan menggunakan command   ```db.books.find()```
+    Untuk melihat hasil dari proses CRUD yang sudah dibuat diatas, dapat dilakukan pencarian dengan menggunakan command   ```db.books.find()``` <br><br>
     ![Screenshot connection](../Laprak2/18.png)
