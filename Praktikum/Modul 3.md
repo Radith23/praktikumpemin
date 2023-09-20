@@ -107,10 +107,10 @@ db.once('connected', () => {
 ![Screenshot connection](../Laprak3/8.png) <br><br>
 
 ## Pembuatan routing
-1. Lakukan pembuatan direktori routes di tingkat yang sama dengan index.js
+1. Lakukan pembuatan direktori routes di tingkat yang sama dengan index.js <br><br>
 ![Screenshot connection](../Laprak3/9.png) <br><br>
 
-2. Buatlah file book.route.js di dalamnya
+2. Buatlah file book.route.js di dalamnya <br>
 ![Screenshot connection](../Laprak3/10.png) <br><br>
 
 3. Tambahkan baris kode berikut untuk fungsi getAllBooks
@@ -196,7 +196,7 @@ app.listen(PORT, () => {
 ![Screenshot connection](../Laprak3/14.png) <br><br>
 
 ## Pembuatan Controller
-1. Lakukan pembuatan direktori controllers di tingkat yang sama dengan index.js
+1. Lakukan pembuatan direktori controllers di tingkat yang sama dengan index.js <br>
 ![Screenshot connection](../Laprak3/15.png) <br><br>
 
 2. Buatlah file book.controller.js di dalamnya
@@ -321,7 +321,7 @@ Berikut adalah gambaran bentuk data dari modul sebelumnya
  	</tr>
  </table>
 
-1. Lakukan pembuatan direktori models di tingkat yang sama dengan index.js
+1. Lakukan pembuatan direktori models di tingkat yang sama dengan index.js <br>
 ![Screenshot connection](../Laprak3/22.png) <br><br>
 
 2. Buatlah file book.model.js di dalamnya <br>
