@@ -115,7 +115,7 @@ $router->get('/', ['uses' => 'HomeController@index']);
 ```
 ![Screenshot connection](../Laprak6/2.1.png) <br><br>
 
-3. Jalankan aplikasi
+3. Jalankan aplikasi <br><br>
 ![Screenshot connection](../Laprak6/2.2.png) <br><br>
 
 ## Request Handler
@@ -163,7 +163,7 @@ class HomeController extends Controller
 ```
 ![Screenshot connection](../Laprak6/3.1.png) <br><br>
 
-3. Jalankan aplikasi
+3. Jalankan aplikasi <br><br>
 ![Screenshot connection](../Laprak6/3.2.png) <br><br>
 
 ## Response Handler
@@ -227,7 +227,7 @@ $router->get('/hello', ['uses' => 'HomeController@hello']); // route hello
 ```
 ![Screenshot connection](../Laprak6/4.2.png) <br><br>
 
-4. Jalankan aplikasi pada route /hello
+4. Jalankan aplikasi pada route /hello <br><br>
 ![Screenshot connection](../Laprak6/4.3.png) <br><br>
 
 ## Penerapan
