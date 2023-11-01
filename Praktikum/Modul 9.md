@@ -375,7 +375,7 @@ class Authorization
 ## JWT Library
 1. Lakukan generate jwt key secara online menggunakan website <u>Djecrety ― Django Secret Key Generator</u>
 ![Screenshot connection](../Laprak9/3.1.1.png) <br><br>
-Setelah mendapatkan secret key kita akan memasukkan secret key tersebut pada file ```.env``` dengan membuat variable baru bernama ```JWT_SECRET```
+Setelah mendapatkan secret key kita akan memasukkan secret key tersebut pada file ```.env``` dengan membuat variable baru bernama ```JWT_SECRET```<br></br>
 ![Screenshot connection](../Laprak9/3.1.2.png) <br><br>
 
 2. Lakukan instalasi package jwt firebase dengan menggunakan command berikut
