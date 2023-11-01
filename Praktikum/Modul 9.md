@@ -6,7 +6,7 @@ JSON Web Token (JWT) adalah standar terbuka yang mendefinisikan cara ringkas dan
 
 ### Penggunaan
 <li>Authorization</li>
-Setelah user masuk, setiap request perlu menyertakan. Hal ini mengizinkan user untuk mengakses route, service, dan resource yang diizinkan menggunakan token.
+Setelah user masuk, setiap request perlu menyertakan. Hal ini mengizinkan user untuk mengakses route, service, dan resource yang diizinkan menggunakan token. <br></br>
 <li>Information Exchange</li>
 JWT dapat digunakan untuk mengamankan transmisi data antar pihak. Hal ini dimungkinkan karena JWT dapat ditandatangani untuk memastikan data dikirimkan oleh pengirim yang benar. Penggunaan signature yang dihitung dengan header dan payload dapat memverifikasi data yang dikirimkan tidak diubah di tengah jalan.
 
@@ -58,7 +58,6 @@ Yang menghasilkan signature sebagai berikut
 ```javascript
 58_9vUl1BQN7Fpqs7u7r4tyJC_wvFJ5n4GibGTVnGpU
 ```
-<br></br>
 
 # Langkah Percobaan
 ## Penyesuaian Database
